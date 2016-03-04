@@ -1,6 +1,6 @@
 # TypeScript Style Guide
 
-This is the TypeScript style guide that we use internally at Platypi! It is *semi-reasonable*, but it's more important that we keep a consistent look/feel of our code.
+This is the TypeScript style guide that we use internally at Huncwot. It is *semi-reasonable*, but it's more important that we keep a consistent look/feel of our code.
 
 
 ## Table of Contents
@@ -46,6 +46,7 @@ This is the TypeScript style guide that we use internally at Platypi! It is *sem
   0. [=== and !== Operators](#===-and-!==-Operators)
   0. [Eval](#eval)
   0. [TSLint](#tslint)
+  0. [Testing](#testing)
   0. [License](#license)
 
 ## Introduction
@@ -930,10 +931,17 @@ Blank lines improve code readability by allowing the developer to logically grou
 
   - Always use a Linter
 
-Linting your code is very helpful for preventing minor issues that can escape the eye during development. We use TSLint (written by Palantir) for our linter.
+Linting your code is very helpful for preventing minor issues that can escape the eye during development.
+We use TSLint (written by Palantir) for our linter.
 
   - TSLint: https://github.com/palantir/tslint
-  - Our [tslint.json](https://github.com/Platypi/style_typescript/blob/master/tslint.json)
+  - Our [tslint.json](https://github.com/huncwotdigital/typescript/blob/master/tslint.json)
+
+  **[top](#table-of-contents)**
+
+## Testing
+
+  - Remove all your `console.log` calls when you finish debugging certain parts of code!
 
 ## License
 (The MIT License)
