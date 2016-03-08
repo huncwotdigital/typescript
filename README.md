@@ -415,8 +415,6 @@ JSDocs can be interpreted by IDEs for better intellisense. Below is an example o
   - Use `let` everywhere else
   - Avoid using `var`
 
-**[top](#table-of-contents)**
-
 ### Types
 
   - Always favor type inference over explicit type declaration except for function return types
@@ -435,8 +433,6 @@ JSDocs can be interpreted by IDEs for better intellisense. Below is an example o
   // good
   let numbers: Array<number> = [];
   ```
-
-**[top](#table-of-contents)**
 
 ### Classes
 
@@ -470,8 +466,6 @@ JSDocs can be interpreted by IDEs for better intellisense. Below is an example o
   }
   ```
 
-**[top](#table-of-contents)**
-
 ### Interfaces
 
   - Interfaces should use UpperCamelCase.
@@ -485,8 +479,6 @@ JSDocs can be interpreted by IDEs for better intellisense. Below is an example o
       toString(): string;
   }
   ```
-
-**[top](#table-of-contents)**
 
 ### Constants
 
